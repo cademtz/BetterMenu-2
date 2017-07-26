@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Panels.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawManager.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VMTHooks.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CSignature.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawX.cpp">
+      <Filter>DrawX</Filter>
+    </ClCompile>
+    <ClCompile Include="Fonts.cpp">
+      <Filter>DrawX</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Window styles.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CDrawManager.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVars.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="getvfunc.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Panels.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponList.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHooks.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CSignature.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawX.h">
+      <Filter>DrawX</Filter>
+    </ClInclude>
+    <ClInclude Include="Common colors.h">
+      <Filter>DrawX</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextures.h">
+      <Filter>DrawX</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Base\Headers\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Base\Headers\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>DrawX</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{617e1597-3eb0-45ca-8a4f-150cb55c2e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Source">
+      <UniqueIdentifier>{7561bd3e-f399-43c0-80fd-202de503f606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Headers">
+      <UniqueIdentifier>{79b023fd-cbc8-41db-bfda-b06ff3b945f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DrawX">
+      <UniqueIdentifier>{78412324-ee68-43a1-a871-4a7578b13321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Headers\Vector">
+      <UniqueIdentifier>{a9089cc3-9a7d-4aac-bea5-7e89017d7559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{2d3908ac-177a-48b3-ab19-ddc19d3ea564}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
